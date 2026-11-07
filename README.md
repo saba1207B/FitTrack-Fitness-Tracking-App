@@ -120,7 +120,7 @@ FitTrack follows a modern Android architecture to keep the application maintaina
 ## 📂 Project Structure
 
 ```text
-CodeAlpha_FitTrack-Fitness-Tracking-App/
+FitTrack-Fitness-Tracking-App/
 ├── .github/
 │   └── workflows/
 │       └── build-apk.yml
@@ -270,11 +270,11 @@ Application screenshots can be added to the `screenshots/` directory as the proj
 
 ## 📦 APK
 
-The recommended CI artifact for installation testing and CodeAlpha submission is the **signed Release APK** from the successful GitHub Actions workflow run. Download the Release APK artifact from the workflow's **Artifacts** section.
+The recommended CI artifact for installation testing and project verification is the **signed Release APK** from the successful GitHub Actions workflow run. Download the Release APK artifact from the workflow's **Artifacts** section.
 
 The older `assembleDebug` build remains useful for development, but it is not the recommended submission build.
 
-## 🎯 CodeAlpha / Portfolio Verification
+## 🎯 Portfolio Verification
 
 This repository documents both the automated CI build and the manual Play Protect installation test so reviewers can inspect the build process and the observed installation-security result.
 
